@@ -1,0 +1,109 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #E4F9F5;
+    
+}
+h1{
+    color: #66BFBF;
+    font-size: 3.65em;
+    margin-bottom: 0;
+    font-family: 'Sacramento', sans-serif;    
+}
+h2{
+    color: #66BFBF;
+    margin-bottom: 0; 
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    /* height: 200px;
+    width: 200px; */
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+} 
+
+.education{
+    background-color: #E4F9F5;
+    text-align: center;
+}
+.skills{
+    background-color: #E4F9F5;
+    text-align: center;
+
+}
+.work{
+    background-color: #E4F9F5;
+    text-align: center;
+}
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+td{
+    text-align: left;
+}
+
+hr{
+    border-style: dotted none none;
+    height: 0px;
+    border-color: grey;
+    border-width: 5px;
+    width: 60%;
+  }
+
+
+  .btn {
+    font-family: 'Merriweather', serif; 
+    color: #FCF3ED;
+    font-size: 15px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(top,  #11CDD4,  #11999E);
+    background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+    background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+    background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+    margin: 10px;
+  }
+  .btn:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(top,  #30E3CB,  #2BC4AD);
+    background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
+    background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+    background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  }
+
+  .bottom-container{
+      margin-top: 30px;      
+  }
+  .footer-link{
+      margin-right: 15px;
+  }
+a{
+    font-family: 'Merriweather', serif; 
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
